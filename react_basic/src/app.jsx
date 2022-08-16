@@ -1,13 +1,15 @@
-import "./app.module.css";
-import State from "./component/state";
-import Event from "./component/event";
+import "./app.css";
+
+import Header from "./component/voca/header";
+import DayList from "./component/voca/dayList";
+import Day from "./component/voca/day";
 
 function App() {
-  const age = 10;
   return (
     <>
-      <State age={age} />
-      {/* <Event /> */}
+      <Header />
+      <DayList />
+      <Day />
     </>
   );
 }
