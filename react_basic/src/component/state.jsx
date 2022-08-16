@@ -12,10 +12,10 @@ const State = ({ age }) => {
   };
   return (
     <>
-      <h1>state</h1>
+      <h1>state&props</h1>
       <h2>
-        {name}
-        {age}
+        {name} <br />
+        {`props는 ${age}`}
       </h2>
       <button onClick={chaneName}>change</button>
     </>
