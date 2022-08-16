@@ -6,8 +6,8 @@ function App() {
   const age = 10;
   return (
     <>
-      {/* <State age={age} /> */}
-      <Event />
+      <State age={age} />
+      {/* <Event /> */}
     </>
   );
 }
