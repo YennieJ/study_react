@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => (
   <div className="header">
-    <h1>
-      <a href="#">IELTS 영단어</a>
-    </h1>
+    <Link to="/">
+      <h1>IELTS 영단어</h1>
+    </Link>
     <div className="menu">
       <a href="#" className="link">
         단어 추가
