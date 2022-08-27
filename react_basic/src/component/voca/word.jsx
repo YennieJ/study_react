@@ -9,7 +9,8 @@ function Word({ word }) {
     setIsShow(!isShow);
   };
   const toggleDone = () => {
-    setIsDone(!isDone);
+    // setIsDone(!isDone);
+    fetch();
   };
 
   return (
