@@ -1,6 +1,8 @@
 import React from "react";
 import { useState, useRef } from "react";
 
+//랜Ref안에 값을 저장했다가 랜더링이 된 후에 보여준다
+
 const CompareWithState = () => {
   const [count, setCount] = useState(0);
   const countRef = useRef(0);

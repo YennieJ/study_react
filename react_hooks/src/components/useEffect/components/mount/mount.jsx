@@ -12,14 +12,6 @@ import { useState, useEffect } from "react";
 // 작업..
 // },[value]); -- 화면에 척 랜더링이 될때 실행, value값이 바꿀때 실행
 
-//clean up
-// useEffect(()=>{
-// 작업..
-// return () =>{
-// 작업 중단
-//  }
-// }); -- (타이머, EventListner)
-
 const Mount = () => {
   const [count, setCount] = useState(0);
   const [name, setName] = useState("");

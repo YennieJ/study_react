@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import Timer from "./component/timer";
 
+//clean up
+// useEffect(()=>{
+// 작업..
+// return () =>{
+// 작업 중단
+//  }
+// }); -- (타이머, EventListner)
+
 const CleanUp = () => {
   const [buttonName, setButtonName] = useState(false);
 
